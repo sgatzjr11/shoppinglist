@@ -1,0 +1,181 @@
+@media screen and (max-width: 760px){
+
+	header{
+		height: 180px;
+	}
+	
+	#shop-title{
+		margin: 5px auto;
+	}
+	.shop-list {
+		margin-top: 0;
+	}
+	
+}
+
+@media screen and (max-width: 500px){
+	
+	.shop-table{
+	width: 15em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	}
+
+	.cross-out{
+	font-size: 16px;
+	text-decoration: line-through;
+	color: red;	
+	}
+
+}
+
+
+
+body{
+	-webkit-font-smoothing: antialiased;
+	background-color: #1485CC;
+	/*font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif*/
+}
+
+header{
+	background-color: #B5BCBF;
+	padding-top: .8em;
+	height: 4.5em;
+	font-size: 3em;
+	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif
+}
+
+#top-para{
+	margin-top: 50px;
+}
+
+.container{
+	text-align: center;
+}
+
+#shop-title{
+	font-weight: bold;
+  	text-shadow: 2px 2px 2px white;
+}
+
+.shop-list{
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 28px;
+}
+
+
+.cross-out{
+	text-decoration: line-through;
+	color: red;	
+}
+
+.red{
+	color: red;
+}
+
+.limegreen{
+	color: limegreen;
+}
+
+
+#add-items{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border:2px solid white;
+	border-radius:10px;
+	height: 24px;
+	width: 300px;
+	font-size: 16px;
+ 	font-family: 'Permanent Marker', cursive;
+ 	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+
+::-webkit-input-placeholder {
+ font-size: 16px;
+ -webkit-font-smoothing: antialiased;
+ font-family: 'Permanent Marker', cursive;
+ color: white;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
+}
+
+.bold{
+	font-size: 22px;
+	color: #ff8c00;
+}
+
+/*button section*/
+
+
+button {
+	margin-bottom: 50px;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Permanent Marker', cursive;
+	width: 7.5em;
+	height: 2.1em;
+	background-color: transparent;
+	border-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+}
+button:hover {
+    background-color: #ff8c00;
+    border-color: white;
+    cursor: pointer;
+}
+
+table{
+	margin-bottom: 125px;
+}
+
+table, td{
+	width: 25em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fa-trash-o:hover{
+	color: red;
+}
+
+.fa-check:hover{
+	color: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

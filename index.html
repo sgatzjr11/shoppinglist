@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,300" rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<title>Shopping List</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="../images/shopping.png">
+			<p id="shop-title">SHOPPING LIST</p>
+		</header>
+		<form id="sub">
+			<section class="shop-list" id="enter-item">
+				<p id="top-para">Add an item in the box below and press <span class="bold">"Enter"</span><br> or hit the <span class="bold">"Add Item"</span> button.</p>
+				<p>Hit the <span class="bold">reset</span> button to start a new list</p>
+				<input type="text" id="add-items" placeholder="Add items to your list"><br>
+	     	 	<button id="add-button">Add Item</button>
+	     	 	<button id="reset-button" type="submit" value="Reset">Reset</button>
+	   	 
+			</section>
+			<section class="shop-list">
+				<table class="shop-table">
+				 	<tr>
+				    <td class="trash"><i class='fa fa-trash-o fa-2x'></i></td>
+				    <td class="list-item"><span class="items">Bread</span></td>		
+				    <td class="check"><i class="fa fa-check fa-2x"></i></td>
+				  </tr>
+				  <tr>
+				    <td class="trash"><i class="fa fa-trash-o fa-2x"></i></td>
+				    <td class="list-item"><span class="items">Eggs</span></td>		
+				    <td class="check"><i class="fa fa-check fa-2x"></i></td>
+				  </tr>
+				  <tr>
+				    <td class="trash"><i class="fa fa-trash-o fa-2x"></i></td>
+				    <td class="list-item"><span class="items">Bacon</span></td>		
+				    <td class="check"><i class="fa fa-check fa-2x"></i></i></td>
+				  </tr>
+				</table>
+			</section>
+			</form>
+	</div>
+</body>
+</html>
