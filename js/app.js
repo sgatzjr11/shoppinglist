@@ -4,6 +4,7 @@ $(document).ready(function()
 			{
 				e.preventDefault();
 				addButton();
+				$('#add-button').prop('disabled', true);
 			});
 	
 
@@ -27,6 +28,17 @@ $(document).ready(function()
 		});
 
 
+//checks for item to be entered first 
+		
+		$('#enter-item').on('keyup', function() {
+			var nameLength = $('#add-items').length;
+			if (nameLength > 0) 
+			{
+			$('#add-button').removeAttr('disabled');
+			}
+		});
+
+	
 });
 
 
