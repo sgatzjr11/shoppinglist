@@ -1,5 +1,24 @@
 $(document).ready(function()
 	{
+
+		$(window).keydown(function(e)
+  		{
+
+			if(e.keyCode == 13)
+			{
+				if($('#add-items').length > 0)
+				{
+					console.log("test");
+					addButton();
+					$('#add-button').prop('disabled', true);
+				}
+				e.preventDefault();
+				return false;
+			} 
+		
+  		});
+
+
 		$("#add-button").on("click", function(e)
 			{
 				e.preventDefault();
@@ -38,6 +57,7 @@ $(document).ready(function()
 			}
 		});
 
+
 	
 });
 
@@ -45,7 +65,7 @@ $(document).ready(function()
 
     var addButton = function(){
 			var add = $("#add-items").val();
-			var newItem = $("<tr><td class='trash'><i class='fa fa-trash-o fa-2x'></i></td><td class='list-item'><span class='items'>" + add + "</span></td><td class='check'><i class='fa fa-check fa-2x'></i></td></tr>").hide();
+			var newItem = $('<tr><td class="trash"><i class="fa fa-trash-o fa-2x"></i></td><td class="list-item"><span class="items">' + add + '</span></td><td class="check"><i class="fa fa-check fa-2x"></i></td></tr>').hide();
 			$(".shop-table").append(newItem);
 			newItem.fadeIn("slow");
 			$("#add-items").val("");

@@ -66,26 +66,19 @@ header{
   	text-shadow: 2px 2px 2px white;
 }
 
-.shop-list{
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Permanent Marker', cursive;
-	letter-spacing: 2px;
-	color: white;
-	font-size: 28px;
+::-webkit-input-placeholder {
+ font-size: 16px;
+ -webkit-font-smoothing: antialiased;
+ font-family: 'Permanent Marker', cursive;
+ color: white;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
 }
 
-
-.cross-out{
-	text-decoration: line-through;
-	color: red;	
-}
-
-.red{
-	color: red;
-}
-
-.limegreen{
-	color: limegreen;
+.bold{
+	font-size: 22px;
+	color: #ff8c00;
 }
 
 
@@ -106,20 +99,27 @@ header{
 }
 
 
-::-webkit-input-placeholder {
- font-size: 16px;
- -webkit-font-smoothing: antialiased;
- font-family: 'Permanent Marker', cursive;
- color: white;
- text-transform: uppercase;
- text-align: center;
- font-weight: bold;
+
+
+
+/*main section of added items*/
+
+.shop-list{
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 28px;
+
 }
 
-.bold{
-	font-size: 22px;
-	color: #ff8c00;
+.cross-out{
+	text-decoration: line-through;
+	color: red;	
 }
+
+
+
 
 /*button section*/
 
@@ -158,6 +158,8 @@ table, td{
 	vertical-align: middle;
 }
 
+/*hover section on checks and trash cans*/
+
 .fa-trash-o:hover{
 	color: red;
 }
@@ -166,6 +168,13 @@ table, td{
 	color: limegreen;
 }
 
+.red{
+	color: red;
+}
+
+.limegreen{
+	color: limegreen;
+}
 
 
 
