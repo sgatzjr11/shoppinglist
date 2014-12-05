@@ -1,16 +1,15 @@
 $(document).ready(function()
 	{
 
-		$(window).keydown(function(e)
+		$('#add-items').keypress(function(e)
   		{
 
 			if(e.keyCode == 13)
 			{
-				if($('#add-items').length > 0)
+				var item = $('#add-items').val();
+				if(item.length > 0)
 				{
-					console.log("test");
 					addButton();
-					$('#add-button').prop('disabled', true);
 				}
 				e.preventDefault();
 				return false;
